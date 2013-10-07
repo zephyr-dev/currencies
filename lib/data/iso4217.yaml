@@ -651,6 +651,7 @@ SRD:
 STD: 
   code: STD
   name: Dobras
+  symbol: Db
 SVC: 
   code: SVC
   name: "Salvadoran Colón"
