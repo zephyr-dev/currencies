@@ -608,7 +608,7 @@ SAR:
 SBD: 
   code: SBD
   name: Dollars
-  symbol: $
+  symbol: SI$
   unicode_hex: 36
 SCR: 
   code: SCR
