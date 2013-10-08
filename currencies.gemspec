@@ -5,7 +5,6 @@
 
 Gem::Specification.new do |s|
   s.name = %q{currencies}
-  s.version = "0.4.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hexorx", "pr0d1r2"]
@@ -37,6 +36,8 @@ Gem::Specification.new do |s|
      "spec/exchange_bank_spec.rb",
      "spec/spec_helper.rb"
   ]
+
+  s.version = File.read('VERSION').chomp
   s.homepage = %q{http://github.com/hexorx/currencies}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
